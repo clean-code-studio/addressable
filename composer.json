@@ -1,8 +1,8 @@
 {
-    "name": "clean-code-studio/addressable",
-    "description": "Any Model can have an aAdress",
+    "name": "clean-code-studio/laravel-addresses",
+    "description": "Laravel Addresses",
     "license": "MIT",
-    "keywords": ["laravel", "addresses", "addressable", "geo", "coordinates", "laravel addresses", "laravel addressable", "laravel locations", "clean code studio"],
+    "keywords": ["laravel", "addresses", "location", "package", "laravel addressable", "clean code studio", "locations"],
     "authors": [
         {
             "name": "Zak",
@@ -15,13 +15,13 @@
     },
   "autoload": {
     "psr-4": {
-      "CleanCodeStudio\\Addressable\\": "src"
+      "CleanCodeStudio\\LaravelAddresses\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "CleanCodeStudio\\Addressable\\ServiceProvider"
+        "CleanCodeStudio\\LaravelAddresses\\ServiceProvider"
       ]
     }
   }

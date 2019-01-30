@@ -1,10 +1,10 @@
 <?php
 
-namespace CleanCodeStudio\Addressable;
+namespace CleanCodeStudio\LaravelAddresses;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
-class ServiceProvider extends LaravelServiceProvider
+class ServiceProvider extends LaravelServiceProviderrovider
 {
 
     /**
@@ -14,16 +14,8 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
-    }
 
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
+        $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
+
     }
 }

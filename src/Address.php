@@ -1,6 +1,6 @@
 <?php
 
-namespace CleanCodeStudio\Addressable;
+namespace CleanCodeStudio\LaravelAddresses;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace CleanCodeStudio\Addressable;
+namespace CleanCodeStudio\LaravelAddresses;
 
 trait CanHaveAddress
 {
@@ -13,4 +13,5 @@ trait CanHaveAddress
         return $this->morphOne(Address::class, 'addressable');
 
     }
+    
 }
