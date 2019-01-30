@@ -8,7 +8,8 @@
 
 `SetUp Model (Ex: App\User.php)`
 ```
-use CleanCodeStudio\CanHaveAddress;
+use CleanCodeStudio\LaravelAddresses\CanHaveAddress;
+
 
 class User extends Model
 {
