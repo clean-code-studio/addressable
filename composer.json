@@ -21,6 +21,9 @@
       "CleanCodeStudio\\Addressable\\": "src"
     }
   },
+  "config": {
+    "sort-packages": true
+  },
   "extra": {
     "laravel": {
       "providers": [
