@@ -1,6 +1,6 @@
 {
     "name": "clean-code-studio/addressable",
-    "description": "Any Model is Can Have and Address",
+    "description": "Any Model can have an aAdress",
     "license": "MIT",
     "keywords": ["laravel", "addresses", "addressable", "geo", "coordinates", "laravel addresses", "laravel addressable", "laravel locations", "clean code studio"],
     "authors": [
