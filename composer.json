@@ -15,14 +15,10 @@
     "illuminate/database": "*",
     "illuminate/support": "*"
   },
-  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "CleanCodeStudio\\Addressable\\": "src"
     }
-  },
-  "config": {
-    "sort-packages": true
   },
   "extra": {
     "laravel": {
@@ -30,5 +26,10 @@
           "CleanCodeStudio\\Addressable\\ServiceProvider"
       ]
     } 
-  }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
