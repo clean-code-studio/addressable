@@ -3,6 +3,8 @@
 namespace CleanCodeStudio\Addressable;
 
 
+use CleanCodeStudio\Address;
+
 trait CanHaveAddress
 {
     /**

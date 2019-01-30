@@ -7,12 +7,17 @@ use Illuminate\Database\Eloquent\Model;
 class Address extends Model
 {
     protected $fillable = [
-        'addressable_id', 'addressable_type', 'city', 'state', 'country', 'postal_code', 'latitude', 'longitude', 'address_line_1', 'address_line_2'
+        'city', 
+        'state', 
+        'country', 
+        'latitude', 
+        'longitude', 
+        'postal_code', 
+        'address_line_1', 
+        'address_line_2',
     ];
 
     /**
-     * @MorphTo
-     *
      * @return \Illuminate\Database\Eloquent\Relations\MorphTo
      */
     public function owner()
@@ -23,8 +28,6 @@ class Address extends Model
     }
 
     /**
-     * @MorphTo
-     *
      * @return \Illuminate\Database\Eloquent\Relations\MorphTo
      */
     public function addressable()
