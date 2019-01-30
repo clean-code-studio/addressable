@@ -4,7 +4,7 @@ namespace CleanCodeStudio\LaravelAddresses;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
-class ServiceProvider extends LaravelServiceProviderrovider
+class ServiceProvider extends LaravelServiceProvider
 {
 
     /**
