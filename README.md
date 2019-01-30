@@ -2,9 +2,7 @@
 
 **Installation**
 1. `composer require clean-code-studio/addressable`
-2. `php artisan vendor:publish`
-3. `select clean-code-studio/addressable`
-4. `php artisan migrate`
+2. `php artisan migrate`
 
 **Example Usage**
 
