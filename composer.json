@@ -1,0 +1,23 @@
+{
+  "name": "clean-code-studio/addressable",
+  "description": "Any Model Can Have An Address",
+  "license": "MIT",
+  "keywords": ["clean-code-studio", "addresses", "eloquent relationships", "morphTo", "morphOne", "laravel addressable"],
+  "authors": [
+    {
+      "name": "Zak Horton",
+      "email": "zhorton999@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "CleanCodeStudio\\Addressable\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": ["CleanCodeStudio\\Addressable\\ServiceProvider"]
+    }
+  }
+}
