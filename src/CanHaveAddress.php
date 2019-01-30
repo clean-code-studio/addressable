@@ -1,6 +1,6 @@
 <?php
 
-namespace CleanCodeStudio\CanHaveAddress;
+namespace CleanCodeStudio\Addressable;
 
 
 trait CanHaveAddress
