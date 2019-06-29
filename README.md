@@ -1,7 +1,7 @@
 #### Any Laravel Model Can Have An Address
 
 **Installation**
-1. `composer require clean-code-studio/addressable`
+1. `composer require clean-code-studio/laravel-addresses`
 2. `php artisan migrate`
 
 **Example Usage**
